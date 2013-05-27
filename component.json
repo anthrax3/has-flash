@@ -1,9 +1,9 @@
 {
-  "name": "hasflash",
-  "repo": "yields/hasflash",
+  "name": "has-flash",
+  "repo": "component/has-flash",
   "description": "Whether or not the browser has flash plugin enabled.",
-  "version": "1.0.0",
-  "keywords": ["flash", "hasflash"],
+  "version": "1.0.1",
+  "keywords": ["flash", "has", "feature", "detection"],
   "dependencies": {},
   "development": {},
   "license": "MIT",
