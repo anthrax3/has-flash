@@ -23,6 +23,9 @@ var mime = navigator.mimeTypes.length
 module.exports = function(){
   if (plugin) return true;
   if (mime && mime.enabledPlugin) return true;
-  try{ new ActiveXObject('ShockwaveFlash.ShockwaveFlash'); return true; } catch(e){}
+  try {
+    new ActiveXObject('ShockwaveFlash.ShockwaveFlash');
+    return true;
+  } catch(e){}
   return false;
 };
