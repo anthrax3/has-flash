@@ -20,7 +20,7 @@ var mime = navigator.mimeTypes.length
  * @return {bool}
  */
 
-module.exports = function(){
+module.exports = (function(){
   if (plugin) return true;
   if (mime && mime.enabledPlugin) return true;
   try {
@@ -28,4 +28,4 @@ module.exports = function(){
     return true;
   } catch(e){}
   return false;
-};
+})();
